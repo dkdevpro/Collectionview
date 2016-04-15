@@ -232,7 +232,6 @@ public class ListFragment extends Fragment implements CollectionviewCallbacks {
                 title.setText("Text Title");
                 info.setText("Text more info");
                 description.setText("Text description");
-                Log.d("list","Child  Count : "+viewChildIndex);
             }
         }
     }
