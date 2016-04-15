@@ -1,5 +1,5 @@
 # Collectionview
-Collection view is a custom implementation of listview. Within this collection view you add any widgets like view pager,horizontal view, imageview etc.
+It is a custom implementation of listview. Within this collection view you can add any widgets like view pager,horizontal view, imageview etc.
 
 #### **Licensing**
 
