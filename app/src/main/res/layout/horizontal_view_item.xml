@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="156sp"
+    android:layout_height="wrap_content"
+    android:paddingStart="@dimen/padding_normal"
+    android:paddingLeft="@dimen/padding_normal"
+    android:paddingTop="@dimen/spacing_normal"
+    android:paddingEnd="@dimen/padding_normal"
+    android:paddingRight="@dimen/padding_normal"
+    android:paddingBottom="@dimen/spacing_normal"
+    android:foreground="?android:selectableItemBackground"
+    android:orientation="vertical"
+    android:baselineAligned="false"
+    android:clickable="true"
+    android:focusable="true"
+    android:background="@drawable/card_background_white">
+
+    <FrameLayout
+        android:layout_width="112dp"
+        android:layout_height="112dp"
+        android:layout_marginEnd="@dimen/padding_normal"
+        android:layout_marginRight="@dimen/padding_normal">
+
+        <ImageView
+            android:id="@+id/thumbnail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_menu_gallery" />
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/horizontal_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:maxLines="3"
+            android:ellipsize="end"
+            android:textSize="14dp"
+            android:textColor="@color/body_text_1"
+            tools:text="Text title" />
+
+        <TextView
+            android:id="@+id/horizontal_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:textSize="12dp"
+            android:textColor="@color/colorAccent"
+            tools:text="Text Info"/>
+
+        <TextView
+            android:id="@+id/horizontal_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:textSize="12dp"
+            android:textColor="@color/body_text_2"
+            tools:text="Description"/>
+
+    </LinearLayout>
+
+</LinearLayout>

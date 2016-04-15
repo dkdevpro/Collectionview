@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/message_card_root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/card_background_white"
+    android:paddingTop="16dp"
+    android:paddingStart="16dp"
+    android:paddingLeft="16dp">
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        tools:text="@string/placeholder_lorem_ipsum"/>
+    <Button
+        android:id="@+id/buttonEnd"
+        android:minWidth="48dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/spacing_micro"
+        android:layout_marginStart="@dimen/spacing_micro"
+        android:layout_marginEnd="@dimen/spacing_normal"
+        android:layout_marginRight="@dimen/spacing_normal"
+        android:layout_gravity="end"
+        android:paddingLeft="@dimen/spacing_normal"
+        android:paddingStart="@dimen/spacing_normal"
+        android:paddingRight="@dimen/spacing_normal"
+        android:paddingEnd="@dimen/spacing_normal"
+        android:textAllCaps="true"
+        android:textSize="@dimen/text_size_medium"
+        android:layout_below="@+id/description"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        tools:text="Button End"
+        style="?android:borderlessButtonStyle" />
+    <Button
+        android:id="@+id/buttonStart"
+        android:minWidth="48dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/spacing_normal"
+        android:paddingStart="@dimen/spacing_normal"
+        android:paddingRight="@dimen/spacing_normal"
+        android:paddingEnd="@dimen/spacing_normal"
+        android:textAllCaps="true"
+        android:textSize="@dimen/text_size_medium"
+        android:layout_alignTop="@id/buttonEnd"
+        android:layout_toLeftOf="@+id/buttonEnd"
+        android:layout_toStartOf="@+id/buttonEnd"
+        tools:text="Button Start"
+        style="?android:borderlessButtonStyle" />
+</RelativeLayout>

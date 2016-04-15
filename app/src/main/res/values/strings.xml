@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Custmoized Listview</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="material_icon_point_empty">&#xe868;</string>
+    <string name="material_icon_point_full">&#xe869;</string>
+
+    <string name="placeholder_lorem_ipsum" translatable="false">Lorem ipsum dolor sit amet, consectetur adipiscing
+        elit. Integer nec eleifend arcu, eu convallis nisi. Etiam bibendum, tellus nec ultricies suscipit, metus justo fringilla urna, non mollis tortor libero non enim. Mauris sit amet venenatis risus, at ullamcorper ligula. Maecenas adipiscing non odio ut hendrerit. Phasellus pharetra id sapien laoreet sagittis. Etiam mattis bibendum elit. Vestibulum rutrum a libero eget facilisis. Duis tempor quam velit, at viverra tellus faucibus ut. Mauris venenatis odio sed lorem dignissim, vitae tristique arcu sagittis.</string>
+</resources>

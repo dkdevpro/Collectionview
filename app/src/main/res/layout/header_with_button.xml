@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/explore_io_card_header_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="48dp"
+    android:paddingTop="@dimen/spacing_micro"
+    android:paddingBottom="@dimen/spacing_micro"
+    android:background="?android:selectableItemBackground"
+    android:baselineAligned="false"
+    android:clickable="true"
+    android:focusable="true"
+    android:gravity="center_vertical"
+    android:onClick="cardHeaderClicked"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@android:id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/padding_normal"
+        android:layout_marginLeft="@dimen/padding_normal"
+        android:layout_marginEnd="@dimen/padding_normal"
+        android:layout_marginRight="@dimen/padding_normal"
+        android:layout_weight="1"
+        android:ellipsize="end"
+        android:maxLines="1"
+        tools:text="@string/placeholder_lorem_ipsum"/>
+
+    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@android:id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/padding_normal"
+        android:layout_marginEnd="@dimen/padding_normal"
+        android:layout_marginStart="@dimen/spacing_normal"
+        android:layout_marginLeft="@dimen/spacing_normal"
+        android:gravity="center"
+        android:padding="@dimen/spacing_normal"
+        android:paddingTop="@dimen/spacing_micro"
+        android:paddingBottom="@dimen/spacing_micro"
+        android:text="VIEW ALL"
+        style="@style/MoreButton" />
+
+</LinearLayout>
